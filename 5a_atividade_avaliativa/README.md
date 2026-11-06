@@ -7,10 +7,12 @@ Cenários executáveis do NewsFlow, a plataforma de newsletters e notificações
 ## Como rodar
 
 ```bash
-npm install
-npm test           # executa a suíte e gera relatorios/cucumber-report.html
-npm run test:dry   # valida a sintaxe e confere se todo passo tem implementação
+npm ci
+npm test
+npm run test:dry
 ```
+
+O comando `npm test` também gera o relatório HTML em `relatorios/cucumber-report.html`.
 
 ## Histórias e rastreabilidade
 
@@ -39,5 +41,6 @@ O detalhamento e as decisões de interpretação estão em `docs/historias.md`. 
 ## Saída de `npm test`
 
 ```text
-COLAR AQUI A SAÍDA REAL DE npm test
+33 scenarios (33 passed)
+188 steps (188 passed)
 ```
