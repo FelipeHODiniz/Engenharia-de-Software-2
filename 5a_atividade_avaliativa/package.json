@@ -1,0 +1,16 @@
+{
+  "name": "newsflow-bdd",
+  "version": "1.0.0",
+  "description": "Cenários BDD do NewsFlow, a plataforma de newsletters e notificações da Vértice",
+  "private": true,
+  "scripts": {
+    "test": "cucumber-js",
+    "test:dry": "cucumber-js --dry-run"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
